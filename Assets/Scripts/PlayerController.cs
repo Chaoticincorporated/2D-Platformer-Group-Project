@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public float groundCheckRadius = 0.2f; // Size of the circle used to detect ground
     public LayerMask groundLayer;      // Which layer counts as "ground" (set in Inspector)
 
+    public int score = 0; //the players current score
+
     // Private variables are used internally by the script.
     private Rigidbody2D rb;            // Reference to the Rigidbody2D component
     private bool isGrounded;           // True if player is standing on ground
@@ -74,5 +76,9 @@ public class PlayerController : MonoBehaviour
                 animator.Play("Player_Fall"); //play fall animation
             }
         }
+    }
+    public void CollectCoins(int coinValue)
+    {
+        score += coinValue;
     }
 }
