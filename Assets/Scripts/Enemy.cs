@@ -2,8 +2,9 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float speed = 2f;          // horizontal speed
-    public float moveDistance = 1f;   // patrol distance from start position
+    [Header("Movement Settings")]
+    public float speed = 2f;          // Horizontal speed
+    public float moveDistance = 1f;   // Patrol distance from start position
 
     private Rigidbody2D rb;
     private float leftBoundary;
@@ -19,20 +20,18 @@ public class Enemy : MonoBehaviour
         rightBoundary = startX + moveDistance;
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        // Move horizontally only
-        rb.linearVelocity = new Vector2(direction * speed, 0f);
+        // Move horizontally using physics
+        rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
 
-        // Flip direction at boundaries
+        // Flip direction smoothly at boundaries
         if (direction > 0 && transform.position.x >= rightBoundary)
         {
-            transform.position = new Vector2(rightBoundary, transform.position.y);
             direction = -1;
         }
         else if (direction < 0 && transform.position.x <= leftBoundary)
         {
-            transform.position = new Vector2(leftBoundary, transform.position.y);
             direction = 1;
         }
     }
