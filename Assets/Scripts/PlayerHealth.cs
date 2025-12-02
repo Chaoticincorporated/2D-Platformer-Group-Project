@@ -1,16 +1,19 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int hitPoints = 100;
+    public Image healthImage;  //reference to HealthBar
 
     private SpriteRenderer sprite;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         sprite = GetComponent<SpriteRenderer>();
+        UpdateHealthBar();  //update HealthBar at start
     }
 
     // Update is called once per frame
@@ -24,8 +27,18 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         hitPoints -= damage;
+        UpdateHealthBar();  //update HealthBar each frame
         StartCoroutine(IsDamaged());
     }
+
+    private void UpdateHealthBar()
+    {
+        if (healthImage != null)
+        {
+            healthImage.fillAmount = hitPoints / 100f;
+        }
+    }
+
     private IEnumerator IsDamaged()
     {
         sprite.color = Color.red;
