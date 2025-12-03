@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class DoubleJump : MonoBehaviour
@@ -21,7 +22,7 @@ public class DoubleJump : MonoBehaviour
     {
         // check if GroundCheck overlaps with ground layer
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
-
+        
         if (isGrounded)
         {
             extraJumps = extraJumpsValue; // reset extra jumps when grounded
@@ -29,8 +30,10 @@ public class DoubleJump : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space)) // when Space is pressed
         {
+            
             if (isGrounded)
             {
+                Debug.Log("Is Grounded: " + isGrounded);
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // normal jump
             }
             else if (extraJumps > 0)
