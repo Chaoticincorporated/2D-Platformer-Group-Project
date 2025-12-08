@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
@@ -31,17 +32,27 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // --- Horizontal movement ---
-        // Get input from keyboard (A/D or Left/Right arrows).
-        float moveInput = Input.GetAxis("Horizontal");
-
-        // Apply horizontal speed while keeping the current vertical velocity.
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-
         // --- Ground check ---
         // Create an invisible circle at the GroundCheck position.
         // If this circle overlaps any collider on the "Ground" layer, player is grounded.
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+
+        // --- Horizontal movement ---
+        // Get input from keyboard (A/D or Left/Right arrows).
+        float moveInput = Input.GetAxis("Horizontal");
+        
+        // Movement Sound
+        // Currently disabled due to sound distortion
+        /*
+        if (moveInput != 0f && isGrounded)
+        {
+            SoundManager.Instance.PlaySFX("WALK");
+        }
+        */
+        
+        // Apply horizontal speed while keeping the current vertical velocity.
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
         // Reset extra jumps when grounded
         if (isGrounded)
@@ -57,12 +68,18 @@ public class PlayerController : MonoBehaviour
             {
                 // Normal jump
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+                
+                // Jump Sound FX
+                SoundManager.Instance.PlaySFX("JUMP");
             }
             else if (extraJumps > 0)
             {
                 // Extra jump (double or triple depending on extraJumpsValue)
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 extraJumps--; // Reduce available extra jumps
+
+                // Jump Sound FX
+                SoundManager.Instance.PlaySFX("JUMP");
             }
         }
 

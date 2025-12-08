@@ -40,6 +40,7 @@ public class CoinScript : MonoBehaviour
         {
             collision.gameObject.GetComponent<PlayerController>().CollectCoins(pointValue);
             Destroy(gameObject);
+            SoundManager.Instance.PlaySFX("COIN", 0.3f);
         }
     }
 }
