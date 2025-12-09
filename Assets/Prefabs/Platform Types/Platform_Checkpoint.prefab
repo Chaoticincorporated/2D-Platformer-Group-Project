@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4878150437786551382}
   - component: {fileID: 3980473950792127715}
   - component: {fileID: 6058047623265399127}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Objects_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7077046887411235361}
   - component: {fileID: 6562239713379884150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -231,7 +231,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8779405241850303567}
   - component: {fileID: 1086923803714966160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -318,7 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3968468925100712945}
   - component: {fileID: 905023678110624072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platform_Checkpoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7003931461632987209}
   - component: {fileID: 491653435193356545}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Platforms_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}

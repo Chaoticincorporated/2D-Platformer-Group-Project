@@ -179,14 +179,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31855616ddbf2ce409ef9516b625ad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coins: 0
+  score: 0
   moveSpeed: 4
   jumpForce: 8
+  extraJumpsValue: 1
   groundCheck: {fileID: 0}
   groundCheckRadius: 0.2
   groundLayer:
     serializedVersion: 2
     m_Bits: 0
-  score: 0
 --- !u!114 &6706456578807622774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +196,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037794897808906104}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5714ddc8d2dbce648bf2ff4ce32318ad, type: 3}
   m_Name: 
@@ -239,6 +241,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36117c5fdab49f94990fcf39d4ec7184, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitPoints: 100
+  healthImage: {fileID: 0}
 --- !u!1 &4014107860100326903
 GameObject:
   m_ObjectHideFlags: 0

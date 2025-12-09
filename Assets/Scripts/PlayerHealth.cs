@@ -44,9 +44,12 @@ public class PlayerHealth : MonoBehaviour
         sprite.color = Color.red;
         yield return new WaitForSeconds(0.1f);
         sprite.color = Color.white;
+
+        // Hurt Sound FX
+        SoundManager.Instance.PlaySFX("HURT");
     }
     void Die()
     {
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
 }
