@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 4f;           // How fast the player moves left/right
 
     // --- Jump variables ---
-    public float jumpForce = 8f;           // Base jump force (vertical speed)
+    public float jumpForce = 5f;           // Base jump force (vertical speed)
+    public float bounceForce = 1f;           // Base jump force (vertical speed)
     public int extraJumpsValue = 1;        // How many extra jumps allowed (1 = double jump, 2 = triple jump)
     private int extraJumps;                // Counter for jumps left
 
@@ -71,7 +72,7 @@ public class PlayerController : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
                 
                 // Jump Sound FX
-                SoundManager.Instance.PlaySFX("JUMP");
+                SoundManager.Instance.PlaySFX("JUMP"); 
             }
             else if (extraJumps > 0)
             {
@@ -124,7 +125,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("BouncePad"))
         {
             rb.linearVelocity = new Vector2
-                (rb.linearVelocity.x, jumpForce * 2f);
+                (rb.linearVelocity.x, jumpForce * bounceForce);
 
             //sound effect
             SoundManager.Instance.PlaySFX("SQUASH");

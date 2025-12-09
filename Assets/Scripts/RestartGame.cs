@@ -4,7 +4,7 @@ public class RestartGame : MonoBehaviour
 {
     public void LoadCurrentScene()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1;
     }
 }
