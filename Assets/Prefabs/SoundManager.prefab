@@ -54,6 +54,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 5671d5483395f4d3abb7d9d0380a5e88, type: 3}
   - key: WALK
     clip: {fileID: 8300000, guid: 92766cebcb78f93499929fbe9c99419e, type: 3}
+  - key: SQUASH
+    clip: {fileID: 8300000, guid: b50a5de5297164efe8ba6d2b0b4b7d4d, type: 3}
 --- !u!82 &4996004352973534403
 AudioSource:
   m_ObjectHideFlags: 0

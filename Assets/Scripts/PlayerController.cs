@@ -127,6 +127,7 @@ public class PlayerController : MonoBehaviour
                 (rb.linearVelocity.x, jumpForce * 2f);
 
             //sound effect
+            SoundManager.Instance.PlaySFX("SQUASH");
         }
     }
 }
