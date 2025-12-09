@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -80,5 +81,15 @@ public class PlayerController : MonoBehaviour
     public void CollectCoins(int coinValue)
     {
         score += coinValue;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("BouncePad"))
+        {
+            rb.linearVelocity = new Vector2
+                (rb.linearVelocity.x, jumpForce * 2f);
+
+            //sound effect
+        }
     }
 }
