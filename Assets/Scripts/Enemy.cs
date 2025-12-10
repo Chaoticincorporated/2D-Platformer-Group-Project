@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
@@ -18,6 +19,8 @@ public class Enemy : MonoBehaviour
         float startX = transform.position.x;
         leftBoundary = startX - moveDistance;
         rightBoundary = startX + moveDistance;
+        
+        transform.rotation = Quaternion.Euler(0f, 180f, 0f);
     }
 
     void FixedUpdate()
@@ -25,13 +28,15 @@ public class Enemy : MonoBehaviour
         // Move horizontally using physics
         rb.linearVelocity = new Vector2(direction * speed, rb.linearVelocity.y);
 
-        // Flip direction smoothly at boundaries
+        // Flip direction smoothly at boundaries and rotate
         if (direction > 0 && transform.position.x >= rightBoundary)
         {
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             direction = -1;
         }
         else if (direction < 0 && transform.position.x <= leftBoundary)
         {
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
             direction = 1;
         }
     }
