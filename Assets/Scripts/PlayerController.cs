@@ -122,6 +122,14 @@ public class PlayerController : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Banana"))
+        {
+            extraJumpsValue = 2;
+            Destroy(collision.gameObject);
+
+            //sound effect
+            SoundManager.Instance.PlaySFX("COIN");
+        }
         if (collision.gameObject.CompareTag("BouncePad"))
         {
             rb.linearVelocity = new Vector2
@@ -131,4 +139,5 @@ public class PlayerController : MonoBehaviour
             SoundManager.Instance.PlaySFX("SQUASH");
         }
     }
+    
 }
