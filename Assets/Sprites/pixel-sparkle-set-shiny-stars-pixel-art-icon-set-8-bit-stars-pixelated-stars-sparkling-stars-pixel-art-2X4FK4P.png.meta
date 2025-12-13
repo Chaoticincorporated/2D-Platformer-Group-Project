@@ -1,0 +1,676 @@
+fileFormatVersion: 2
+guid: 59a186e6604bcda4794a5dbe3086ba28
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6800219052718981187
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_0
+  - first:
+      213: 3250681658517924632
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_1
+  - first:
+      213: 5773354865786524561
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_2
+  - first:
+      213: -4853410872383845933
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_3
+  - first:
+      213: -1984200763164638948
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_4
+  - first:
+      213: -7318941140335674121
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_5
+  - first:
+      213: -7062085454486087685
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_6
+  - first:
+      213: -4253745440179370696
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_7
+  - first:
+      213: -4155027375907903204
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_8
+  - first:
+      213: 5888814464707895264
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_9
+  - first:
+      213: -2020502784837984137
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_10
+  - first:
+      213: 3000985260993453347
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_11
+  - first:
+      213: 5780728685094050199
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_12
+  - first:
+      213: -4461023486824096827
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_13
+  - first:
+      213: -8235979571709361502
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_14
+  - first:
+      213: 3149539258896500851
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_15
+  - first:
+      213: -1038097743416286644
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_16
+  - first:
+      213: -8189609868206938135
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_17
+  - first:
+      213: -2284503934059032747
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_18
+  - first:
+      213: -2071082790331752527
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_19
+  - first:
+      213: 9202776751641550704
+    second: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 320
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 391
+        width: 103
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3408828033b3f5e50800000000000000
+      internalID: 6800219052718981187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 384
+        width: 101
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ba6dddebdbc1d20800000000000000
+      internalID: 3250681658517924632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_2
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 367
+        width: 101
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1939a7179a31f1050800000000000000
+      internalID: 5773354865786524561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 367
+        width: 141
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9ca8aa68835acb0800000000000000
+      internalID: -4853410872383845933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 403
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11438c2be3b674e0800000000000000
+      internalID: -1984200763164638948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_5
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 386
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcbc4e6fc5ed6a90800000000000000
+      internalID: -7318941140335674121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_6
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 394
+        width: 60
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf757e712be6efd90800000000000000
+      internalID: -7062085454486087685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_7
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 368
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835cb293f09a7f4c0800000000000000
+      internalID: -4253745440179370696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_8
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 368
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c196cfaad906656c0800000000000000
+      internalID: -4155027375907903204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_9
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 368
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef981d2e8549b150800000000000000
+      internalID: 5888814464707895264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_10
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 149
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7706b0a1c6bb5f3e0800000000000000
+      internalID: -2020502784837984137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 150
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d92b9e134a5a920800000000000000
+      internalID: 3000985260993453347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_12
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 150
+        width: 96
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79911f98c16493050800000000000000
+      internalID: 5780728685094050199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_13
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 177
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbdc2536c24712c0800000000000000
+      internalID: -4461023486824096827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_14
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 168
+        width: 98
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2c3e2373ce3bd80800000000000000
+      internalID: -8235979571709361502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 185
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3784cacd44965bb20800000000000000
+      internalID: 3149539258896500851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_16
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 151
+        width: 136
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42a9893a9fe791f0800000000000000
+      internalID: -1038097743416286644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_17
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 149
+        width: 101
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7ed7c1739a85e80800000000000000
+      internalID: -8189609868206938135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_18
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 167
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fcd6a96cfcb40e0800000000000000
+      internalID: -2284503934059032747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_19
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 186
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfd9dddc290243e0800000000000000
+      internalID: -2071082790331752527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_20
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 204
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f51dc72b4d6bf70800000000000000
+      internalID: 9202776751641550704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_0: 6800219052718981187
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_1: 3250681658517924632
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_10: -2020502784837984137
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_11: 3000985260993453347
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_12: 5780728685094050199
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_13: -4461023486824096827
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_14: -8235979571709361502
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_15: 3149539258896500851
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_16: -1038097743416286644
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_17: -8189609868206938135
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_18: -2284503934059032747
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_19: -2071082790331752527
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_2: 5773354865786524561
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_20: 9202776751641550704
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_3: -4853410872383845933
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_4: -1984200763164638948
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_5: -7318941140335674121
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_6: -7062085454486087685
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_7: -4253745440179370696
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_8: -4155027375907903204
+      pixel-sparkle-set-shiny-stars-pixel-art-icon-set-8-bit-stars-pixelated-stars-sparkling-stars-pixel-art-2X4FK4P_9: 5888814464707895264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
